@@ -16,11 +16,15 @@
 
     <!-- Gemeinsamer Toolbar-Stil. Kodiert die Dark-Mode-Erkenntnisse aus
          HomeSonar 1.3/1.4: feste Toolbar-Farbe statt ?attr/colorPrimary
-         (im Dark-Mode per values-night dunkler) und KEIN popupTheme — das
-         Dreipunkt-Menü folgt dem DayNight-Theme, sonst droht dunkler Text
-         auf dunklem Grund. -->
+         (im Dark-Mode per values-night dunkler). Titel und Icons brauchen
+         das dunkle ActionBar-Overlay (weiß auf farbiger Leiste); das
+         Dreipunkt-Menü darf dieses Overlay aber NICHT erben, sonst steht
+         im Light Mode weißer Text auf hellem Popup. Deshalb ein eigenes
+         popupTheme, das dem Tag/Nacht-Modus folgt — ein festes Light- oder
+         Dark-Overlay wäre im jeweils anderen Modus unlesbar. -->
     <style name="Widget.AppSonar.Toolbar" parent="Widget.MaterialComponents.Toolbar">
         <item name="android:background">@color/toolbar_bg</item>
         <item name="materialThemeOverlay">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.DayNight</item>
     </style>
 </resources>

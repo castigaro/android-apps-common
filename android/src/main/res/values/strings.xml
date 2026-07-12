@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Update-Prüfung (UpdateChecker/UpdateUi). Apps können jeden String
+         lokal überschreiben. -->
+    <string name="action_check_update">Nach Update suchen</string>
+    <string name="update_available">Neue Version %1$s verfügbar</string>
+    <string name="update_download">Herunterladen</string>
+    <string name="update_up_to_date">Du hast bereits die neueste Version.</string>
+</resources>

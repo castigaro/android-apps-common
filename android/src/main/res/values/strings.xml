@@ -6,4 +6,25 @@
     <string name="update_available">Neue Version %1$s verfügbar</string>
     <string name="update_download">Herunterladen</string>
     <string name="update_up_to_date">Du hast bereits die neueste Version.</string>
+
+    <!-- KI-Provider-Einstellungen (provider_settings.xml / Controller). -->
+    <string name="provider_choose_label">KI-Anbieter wählen</string>
+    <string name="primary_provider_label">Primärer Anbieter</string>
+    <string name="provider_anthropic">Anthropic (Claude)</string>
+    <string name="provider_openai">OpenAI (GPT)</string>
+    <string name="api_key_label">API-Key</string>
+    <string name="model_label">Modell</string>
+    <string name="model_hint">Modell aus der Liste wählen oder eine eigene Modell-ID eintippen. Standard: claude-sonnet-5 (Anthropic) bzw. gpt-4o-mini (OpenAI).</string>
+    <string name="key_enabled">Key aktiv</string>
+    <string name="key_delete">Key löschen</string>
+    <string name="key_deleted">Key gelöscht</string>
+    <string name="key_register_anthropic">Noch keinen API-Key? Bei Anthropic registrieren →</string>
+    <string name="key_register_openai">Noch keinen API-Key? Bei OpenAI registrieren →</string>
+    <string name="add_second_provider">Zweiten Anbieter einrichten: %1$s</string>
+    <string name="api_costs">Bisherige KI-Kosten: ~%1$s $</string>
+    <string name="api_costs_reset">Zurücksetzen</string>
+    <string name="api_costs_reset_done">Kostenzähler zurückgesetzt</string>
+    <string name="api_costs_disclaimer">Der Kostenzähler ist ein unverbindlicher Schätzwert: Er wird aus den Token-Zahlen der API-Antworten mit einer festen, in dieser App-Version hinterlegten Preistabelle berechnet. Abweichungen von den tatsächlichen Kosten sind möglich (z. B. durch Preisänderungen, Rabatte oder Rundung). Verbindlich ist allein die Abrechnung im Konto des jeweiligen Anbieters.</string>
+    <string name="provider_settings_save">Speichern</string>
+    <string name="provider_settings_saved">Einstellungen gespeichert</string>
 </resources>

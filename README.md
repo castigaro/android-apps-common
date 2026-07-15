@@ -26,5 +26,18 @@ immer gegen den aktuellen `main`-Stand.
   Bibliothek.
 - Kein eigener Gradle-Wrapper — die Bibliothek wird nie allein gebaut; ihre
   Unit-Tests laufen in jeder App-CI über `testDebugUnitTest` mit.
-- Ein Push auf `main` stößt die Build-Workflows aller App-Repos an
-  (`.github/workflows/trigger-apps.yml`).
+
+## Nach jedem Push auf `main`: App-Builds anstoßen
+
+Eine Änderung hier betrifft alle Apps, aber deren Release-APKs bauen sich
+nicht von selbst neu (bewusst kein PAT-Secret für einen automatischen
+Cross-Repo-Trigger). Deshalb direkt nach dem Push die Build-Workflows über
+die lokal angemeldete GitHub-CLI starten:
+
+```powershell
+foreach ($r in 'app-markdown-viewer','app-homesonar','app-storyteller',
+               'app-nutrisonar','app-kap-krakenzahn',
+               'app-the-llm-adventure','app-weightsonar') {
+    gh workflow run build.yml -R "castigaro/$r"
+}
+```

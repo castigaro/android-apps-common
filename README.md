@@ -41,3 +41,12 @@ foreach ($r in 'app-markdown-viewer','app-homesonar','app-storyteller',
     gh workflow run build.yml -R "castigaro/$r"
 }
 ```
+
+## Lizenz
+
+Copyright © 2026 Torsten Klein
+
+Dieses Projekt steht unter der **GNU Affero General Public License v3.0 oder
+später** (AGPL-3.0-or-later), siehe [LICENSE](LICENSE): Wer den Code — auch als
+Netzwerkdienst — weiterverwendet oder verändert, muss den Quellcode unter
+derselben Lizenz offenlegen. Eine kommerzielle Lizenz ist auf Anfrage möglich.

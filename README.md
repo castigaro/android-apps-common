@@ -1,6 +1,6 @@
 # android-apps-common
 
-Gemeinsame Android-Bibliothek der castigaro-Apps: Basis-Theme
+Gemeinsame Android-Bibliothek der AppSonar-Apps: Basis-Theme
 (`Theme.AppSonar`), Update-Erkennung (`UpdateChecker`/`UpdateUi`) und die
 komplette KI-Provider-/API-Key-Verwaltung (`ProviderSettings`,
 `ProviderSettingsController`, `ModelPricing`).
@@ -38,7 +38,7 @@ die lokal angemeldete GitHub-CLI starten:
 foreach ($r in 'app-markdown-viewer','app-homesonar','app-storyteller',
                'app-nutrisonar','app-kap-krakenzahn',
                'app-the-llm-adventure','app-weightsonar') {
-    gh workflow run build.yml -R "castigaro/$r"
+    gh workflow run build.yml -R "AppSonar/$r"
 }
 ```
 

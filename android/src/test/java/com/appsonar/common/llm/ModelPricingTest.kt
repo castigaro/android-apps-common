@@ -1,4 +1,4 @@
-package com.castigaro.common.llm
+package com.appsonar.common.llm
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

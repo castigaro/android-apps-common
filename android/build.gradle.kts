@@ -12,7 +12,7 @@ plugins {
 }
 
 android {
-    namespace = "com.castigaro.common"
+    namespace = "com.appsonar.common"
     compileSdk = 34
 
     defaultConfig {

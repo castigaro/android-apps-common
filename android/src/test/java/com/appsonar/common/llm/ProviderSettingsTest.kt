@@ -1,4 +1,4 @@
-package com.castigaro.common.llm
+package com.appsonar.common.llm
 
 import android.content.Context
 import androidx.test.core.app.ApplicationProvider

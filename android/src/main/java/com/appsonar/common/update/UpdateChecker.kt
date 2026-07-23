@@ -1,4 +1,4 @@
-package com.castigaro.common.update
+package com.appsonar.common.update
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext

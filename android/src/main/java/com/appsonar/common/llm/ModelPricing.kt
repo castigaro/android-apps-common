@@ -1,4 +1,4 @@
-package com.castigaro.common.llm
+package com.appsonar.common.llm
 
 /**
  * Feste Preistabelle zur Kostenschätzung (USD pro Million Token, Stand des

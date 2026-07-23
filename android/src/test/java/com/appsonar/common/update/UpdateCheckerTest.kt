@@ -1,4 +1,4 @@
-package com.castigaro.common.update
+package com.appsonar.common.update
 
 import kotlinx.coroutines.runBlocking
 import okhttp3.mockwebserver.MockResponse

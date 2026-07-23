@@ -1,4 +1,4 @@
-package com.castigaro.common.update
+package com.appsonar.common.update
 
 import android.content.Intent
 import android.net.Uri
@@ -6,7 +6,7 @@ import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
-import com.castigaro.common.R
+import com.appsonar.common.R
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.coroutines.launch
 

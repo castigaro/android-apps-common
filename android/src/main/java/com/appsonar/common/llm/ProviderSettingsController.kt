@@ -1,4 +1,4 @@
-package com.castigaro.common.llm
+package com.appsonar.common.llm
 
 import android.content.Intent
 import android.net.Uri
@@ -8,8 +8,8 @@ import android.view.View
 import android.widget.ArrayAdapter
 import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
-import com.castigaro.common.R
-import com.castigaro.common.databinding.ProviderSettingsBinding
+import com.appsonar.common.R
+import com.appsonar.common.databinding.ProviderSettingsBinding
 import com.google.android.material.snackbar.Snackbar
 import java.util.Locale
 

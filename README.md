@@ -38,7 +38,7 @@ die lokal angemeldete GitHub-CLI starten:
 foreach ($r in 'app-markdown-viewer','app-homesonar','app-storyteller',
                'app-nutrisonar','app-kap-krakenzahn',
                'app-the-llm-adventure','app-weightsonar') {
-    gh workflow run build.yml -R "appsonar/$r"
+    gh workflow run build.yml -R "castigaro/$r"
 }
 ```
 
